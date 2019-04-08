@@ -1,6 +1,6 @@
-# Apache Kafka example for Java
+# Apache Kafka Message passing for the Product sale for Java
 
-Example code for connecting to a Apache Kafka cluster and authenticate with SSL_SASL and SCRAM. 
+Product sale and get that info code for connecting to a Apache Kafka cluster and authenticate with SSL_SASL and SCRAM. 
 
 To easily test this code you can create a free Apacha Kafka instance at https://www.cloudkarafka.com
 
