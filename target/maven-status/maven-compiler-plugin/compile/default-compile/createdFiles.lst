@@ -1,2 +1,2 @@
-KafkaExample$1.class
-KafkaExample.class
+com\jpmorgan\kafka\ConsumerForPurchase.class
+com\jpmorgan\kafka\ProducerForPurchase.class

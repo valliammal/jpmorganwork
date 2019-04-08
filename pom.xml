@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>cloudkarafka.example</groupId>
+  <groupId>productsale</groupId>
   <artifactId>kafka</artifactId>
   <version>1.0-SNAPSHOT</version>
 
@@ -30,7 +30,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>KafkaExample</mainClass>
+              <mainClass>ConsumerForPurchase</mainClass>
             </manifest>
           </archive>
           <descriptorRefs>
@@ -54,7 +54,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>KafkaExample</mainClass>
+              <mainClass>ConsumerForPurchase</mainClass>
               <addClasspath>true</addClasspath>
             </manifest>
           </archive>

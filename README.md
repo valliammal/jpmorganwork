@@ -21,11 +21,11 @@ export CLOUDKARAFKA_PASSWORD=<password>
 ### Run
 
 ```
-git clone 
-cd java-kafka-example
 mvn clean compile assembly:single
 java -jar target/kafka-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```
 
 This will start a Java application that pushes messages to Kafka in one Thread and read messages in the main Thread. 
 The output you will see in the terminal is the messages received in the consumer.
+The ConsumerForPurchase.java is executed in another command line and then both will have the authentication 
+and get the results of send and receive.
